@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: black;
+    padding: 2%;
+    padding-bottom: 4%;
+    text-align: center;
+}
+
+#nombre {
+    font-family: cursive;
+    font-size: 40px;
+    margin: 2%;
+    color: white;
+}
+
+.paginas {
+    font-size: 20px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(20, 207, 220);
+    transition: 300ms;
+}
+
+#youtubeLink:hover {
+    color: crimson;
+    transition: 300ms;
+}
+
+#facebookLink:hover {
+    color: rgb(60, 60, 206);
+    transition: 300ms;
+}
+
+#instagramLink:hover {
+    color: rgb(255, 110, 248);
+    transition: 300ms;
+}
+
+.galeria {
+    margin: 2%;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 1%;
+}
+
+footer {
+    background-color: black;
+    padding: 2%;
+}
+
+footer span {
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    #nombre {
+        font-family: cursive;
+        font-size: 30px;
+        margin: 2%;
+    }
+
+    .paginas {
+        font-size: 20px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    img {
+        width: 200px;
+        height: auto;
+        margin: 0.5%;
+    }
+
+    footer {
+        padding: 4%;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    #nombre {
+        font-family: cursive;
+        font-size: 20px;
+        margin: 2%;
+    }
+
+    .paginas {
+        font-size: 10px;
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+
+    img {
+        width: 150px;
+        height: auto;
+        margin: 0.5%;
+    }
+
+    footer {
+        padding: 4%;
+    }
+}
